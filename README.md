@@ -1,6 +1,6 @@
 # zodops.github.io
 
-Personal portfolio and career site for **Zodi Tagedini** — Sr. Solutions Engineer specializing in Cloud Security, NGWAF, API Security, AWS, and Kubernetes.
+Personal portfolio and career site to Exhibit the Various Projects I've Worked on and Continue to Work on. 
 
 🌐 **Live site:** [zodops.io](https://zodops.io)
 
