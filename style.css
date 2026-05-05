@@ -330,7 +330,7 @@ ul {
 }
 
 .skill-list li::before {
-  content: '▸';
+  content: 'â–¸';
   position: absolute;
   left: 0;
   color: var(--accent);
@@ -459,7 +459,7 @@ ul {
 }
 
 .job-bullets li::before {
-  content: '–';
+  content: 'â€“';
   position: absolute;
   left: 0;
   color: var(--text-dim);
@@ -536,6 +536,95 @@ ul {
 
 .project-card:hover .project-link {
   text-decoration: underline;
+}
+
+/* =====================
+   LAB NOTES
+   ===================== */
+.labs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.lab-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.75rem;
+  transition: border-color var(--transition), transform var(--transition);
+}
+
+.lab-card:hover {
+  border-color: rgba(56, 189, 248, 0.3);
+  transform: translateY(-2px);
+}
+
+.lab-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.lab-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: var(--accent-dim);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.lab-card-titles h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.lab-status {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #fbbf24;
+  background: rgba(251, 191, 36, 0.1);
+  border: 1px solid rgba(251, 191, 36, 0.25);
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.lab-desc {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
+}
+
+.lab-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.lab-list li {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  padding-left: 1rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.lab-list li::before {
+  content: 'â–¸';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: 0.7rem;
+  top: 0.4rem;
 }
 
 /* =====================
