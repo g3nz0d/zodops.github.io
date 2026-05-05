@@ -23,6 +23,7 @@ This is a static personal website built with vanilla HTML and CSS. It serves as 
 - **About** — Background, core focus areas, and in-progress certifications (AWS SAA, CKA)
 - **Experience** — Work history across Cyera, Fastly, and Signal Sciences
 - **Projects** — Open-source scripts and tooling (Go, Python, Bash)
+- **Lab Notes** - Previous and current projects in the respective technology
 - **Contact** — LinkedIn connection
 
 ## Connect
