@@ -20,6 +20,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#labs">Labs</a></li>
         <li><a href="#contact" class="nav-cta">Contact</a></li>
       </ul>
     </nav>
@@ -179,7 +180,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>
               <span class="project-lang">Go</span>
             </div>
-            <h3>GoLang Projects</h3>
+            <h3>golang-for-SigSci</h3>
             <p>Go scripts for interacting with Signal Sciences (Fastly NGWAF) — automating security rules, site management, and API workflows.</p>
             <span class="project-link">View on GitHub →</span>
           </a>
@@ -208,8 +209,81 @@
       </div>
     </section>
 
+    <!-- LAB NOTES -->
+    <section class="section section-alt" id="labs">
+      <div class="container">
+        <h2 class="section-title">Lab Notes</h2>
+        <p class="section-sub">Hands-on projects and studies tied to my certification journey. Each track grows as I build.</p>
+        <div class="labs-grid">
+
+          <div class="lab-card">
+            <div class="lab-card-header">
+              <div class="lab-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
+              </div>
+              <div class="lab-card-titles">
+                <h3>AWS</h3>
+                <span class="lab-status">SAA In Progress</span>
+              </div>
+            </div>
+            <p class="lab-desc">Cloud architecture fundamentals — IAM, networking, compute, storage, and serverless patterns.</p>
+            <ul class="lab-list">
+              <li>VPC design with public/private subnets &amp; peering</li>
+              <li>S3 + CloudFront static site hosting</li>
+              <li>Lambda + API Gateway serverless API</li>
+              <li>IAM least-privilege policy walkthroughs</li>
+              <!-- TODO: add more labs as you complete them -->
+            </ul>
+          </div>
+
+          <div class="lab-card">
+            <div class="lab-card-header">
+              <div class="lab-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"/><line x1="12" y1="22" x2="12" y2="15.5"/><polyline points="22 8.5 12 15.5 2 8.5"/><polyline points="2 15.5 12 8.5 22 15.5"/><line x1="12" y1="2" x2="12" y2="8.5"/></svg>
+              </div>
+              <div class="lab-card-titles">
+                <h3>Kubernetes</h3>
+                <span class="lab-status">CKA In Progress</span>
+              </div>
+            </div>
+            <p class="lab-desc">Cluster operations, networking, and workload orchestration for cloud-native environments.</p>
+            <ul class="lab-list">
+              <li>Local cluster setup with kubeadm</li>
+              <li>Pod networking deep dive (CNI plugins)</li>
+              <li>Helm chart authoring</li>
+              <li>Ingress + TLS with cert-manager</li>
+              <!-- TODO: add more labs as you complete them -->
+            </ul>
+          </div>
+
+          <div class="lab-card">
+            <div class="lab-card-header">
+              <div class="lab-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg>
+              </div>
+              <div class="lab-card-titles">
+                <h3>Application Security</h3>
+                <span class="lab-status status-ongoing">Ongoing</span>
+              </div>
+            </div>
+            <p class="lab-desc">WAF rule design, API security testing, and OWASP Top 10 mitigations across modern application stacks.</p>
+            <ul class="lab-list">
+              <li>Custom WAF rule authoring &amp; tuning</li>
+              <li>OWASP Top 10 attack simulation &amp; defense</li>
+              <li>API security testing (auth, rate limiting, schema validation)</li>
+              <li>Container &amp; Kubernetes security hardening</li>
+              <!-- TODO: add more labs as you complete them -->
+            </ul>
+          </div>
+
+          <!-- TODO: Duplicate a .lab-card block above to add more topics (Terraform, Observability, etc.) -->
+
+        </div>
+      </div>
+    </section>
+
     <!-- CONTACT -->
-    <section class="section section-alt" id="contact">
+    <section class="section" id="contact">
       <div class="container container-narrow">
         <h2 class="section-title">Get In Touch</h2>
         <p class="contact-sub">
